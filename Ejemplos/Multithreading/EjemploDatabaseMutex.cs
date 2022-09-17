@@ -53,7 +53,7 @@ namespace Ejemplos.Multithreading
             Console.WriteLine("Hilo de ejecucion secundario #2 Retornando desde Output");
         }
 
-        public static void Main()
+        public static void OldMain()
         {
             Console.WriteLine("Principal - Creando hilos de ejecucion secundarios");
 
